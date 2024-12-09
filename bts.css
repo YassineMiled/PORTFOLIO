@@ -1,0 +1,15 @@
+.container {
+  text-align: left 50px;
+  display: flex;
+  align-items: center; /* Centrer verticalement */
+  margin-right: 200px;
+  gap: 150px; /* Espace entre les éléments */
+}
+
+.container img {
+  width: 30%;
+  float: left;
+  margin-top: 150px;
+  margin-left: 200px;
+  height: auto; /* Conserve la hauteur de l'image */
+}

@@ -1,0 +1,32 @@
+.AidesContainer img {
+  margin-left: 70px;
+  width: 65%;
+  height: auto;
+  margin: auto;
+}
+
+.AidesContainer {
+ 
+  text-align: left 50px;
+  display: flex;
+  align-items: center; /* Centrer verticalement */
+  margin-right: 200px;
+  gap: 50px; /* Espace entre les éléments */
+}
+
+/* Cibler uniquement l'image GitHub */
+a[href*="github.com"] img#Github {
+    
+    gap:20px
+  width: 50px; /* Exemple : Modifier la largeur */
+  height: auto; /* Maintenir les proportions */
+  border: 2px solid #000; /* Ajouter une bordure noire */
+  border-radius: 5px; /* Ajouter des coins arrondis */
+  transition: transform 0.3s; /* Animation au survol */
+
+}
+
+/* Effet au survol */
+a[href*="github.com"] img#Github:hover {
+  transform: scale(1.1); /* Agrandir légèrement au survol */
+}
